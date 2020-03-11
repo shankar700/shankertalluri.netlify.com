@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+.portfolio-home {
+    background-color: rgb(45, 109, 61);
+    color: rgb(228, 248, 248);
+    height: 80vh;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-footer {
+    display: flex;
+    flex-direction: column;
+    max-height: 20vh;
+    align-items: center;
+    animation-name: scroll;
+    animation-iteration-count: infinite;
+}
+
+.home-content {
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.see-content {
+    color: rgb(228, 248, 248);
+    font-family: 'Inter', sans-serif;
+    margin-bottom: auto;
+}
+
+.material-icons {
+    color: rgb(228, 248, 248);
+}
