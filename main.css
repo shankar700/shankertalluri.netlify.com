@@ -33,3 +33,22 @@
 .material-icons {
     color: rgb(228, 248, 248);
 }
+
+#move1 {
+    animation-name: scrolling;
+    animation-duration: 1.25s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scrolling {
+    0% {
+        color: rgba(228, 248, 248, 1);
+    }
+    50% {
+        color: rgb(228, 248, 248);
+    }
+    100% {
+        color: rgba(228, 248, 248, 0.2);
+        margin-top: 25px;
+    }
+}
